@@ -131,8 +131,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
                         $net_return = $expected_return - $tax_amount;
                         
                         // Calculate maturity date (set to yesterday so it can be matured immediately)
+                        // Use a fixed date to avoid timezone issues
                         $maturity_date = date('Y-m-d', strtotime('-1 day'));
                         $start_date = date('Y-m-d', strtotime($maturity_date . ' -' . $duration_days . ' days'));
+                        
+                        // Debug: Log the dates being used
+                        error_log("Creating test investment with start_date: $start_date, maturity_date: $maturity_date");
                         
                         // Generate reference
                         $reference = 'TEST_' . time() . '_' . $user_id;

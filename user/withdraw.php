@@ -48,6 +48,14 @@ try {
     ");
     $stmt->execute([$user_id]);
     $matured_investments = $stmt->fetchAll();
+    
+    // Debug: Log the query results
+    error_log("Withdrawal page - User ID: $user_id, Found " . count($matured_investments) . " matured investments");
+    if (!empty($matured_investments)) {
+        foreach ($matured_investments as $inv) {
+            error_log("Matured investment: ID {$inv['id']}, Ref {$inv['reference']}, Category {$inv['category_id']}");
+        }
+    }
 } catch (PDOException $e) {
     error_log("Matured investments fetch error: " . $e->getMessage());
     $matured_investments = [];
