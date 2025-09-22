@@ -38,7 +38,6 @@ try {
         LEFT JOIN investment_durations id ON ui.duration_id = id.id
         WHERE ui.user_id = ? 
         AND ui.status = 'matured' 
-        AND ui.category_id IS NOT NULL
         AND ui.id NOT IN (
             SELECT DISTINCT investment_id 
             FROM withdrawal_requests 
@@ -277,8 +276,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                                             <div class="flex items-center justify-between">
                                                 <div>
                                                     <h4 class="font-semibold text-gray-900">
-                                                        <?php echo htmlspecialchars($investment['category_name']); ?>
-                                                        - <?php echo htmlspecialchars($investment['duration_name']); ?>
+                                                        <?php echo htmlspecialchars($investment['category_name'] ?: 'Test Investment'); ?>
+                                                        <?php if ($investment['duration_name']): ?>
+                                                            - <?php echo htmlspecialchars($investment['duration_name']); ?>
+                                                        <?php endif; ?>
                                                     </h4>
                                                     <p class="text-sm text-gray-600">
                                                         Reference: <?php echo htmlspecialchars($investment['reference']); ?>

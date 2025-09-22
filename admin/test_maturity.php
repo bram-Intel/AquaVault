@@ -111,10 +111,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
                 $duration_days = $_POST['duration_days'];
                 $interest_rate = $_POST['interest_rate'];
                 $tax_rate = $_POST['tax_rate'];
+                $category_id = $_POST['category_id'] ?? null;
                 
                 // Validate inputs
-                if (empty($user_id) || empty($amount) || empty($duration_days) || empty($interest_rate)) {
-                    $error = "Please fill in all required fields.";
+                if (empty($user_id) || empty($amount) || empty($duration_days) || empty($interest_rate) || empty($category_id)) {
+                    $error = "Please fill in all required fields including category.";
                 } else {
                     // Get user details
                     $stmt = $pdo->prepare("SELECT * FROM users WHERE id = ?");
@@ -142,15 +143,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
                         // Create test investment
                         $stmt = $pdo->prepare("
                             INSERT INTO user_investments (
-                                user_id, reference, amount, interest_rate, tax_rate,
+                                user_id, category_id, reference, amount, interest_rate, tax_rate,
                                 expected_return, net_return, start_date, maturity_date,
                                 status, payment_status, payment_reference, payment_method
-                            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'active', 'paid', ?, 'test')
+                            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'active', 'paid', ?, 'test')
                         ");
                         
                         $payment_ref = 'PAY_TEST_' . time();
                         $stmt->execute([
-                            $user_id, $reference, $amount, $interest_rate, $tax_rate,
+                            $user_id, $category_id, $reference, $amount, $interest_rate, $tax_rate,
                             $expected_return, $net_return, $start_date, $maturity_date,
                             $payment_ref
                         ]);
@@ -218,6 +219,16 @@ try {
     error_log("Users fetch error: " . $e->getMessage());
     $users = [];
 }
+
+// Get investment categories
+try {
+    $stmt = $pdo->prepare("SELECT id, name FROM investment_categories WHERE is_active = 1 ORDER BY name");
+    $stmt->execute();
+    $categories = $stmt->fetchAll();
+} catch (PDOException $e) {
+    error_log("Categories fetch error: " . $e->getMessage());
+    $categories = [];
+}
 ?>
 
 <!DOCTYPE html>
@@ -278,6 +289,18 @@ try {
                                     <?php foreach ($users as $user): ?>
                                         <option value="<?php echo $user['id']; ?>">
                                             <?php echo htmlspecialchars($user['first_name'] . ' ' . $user['last_name'] . ' (' . $user['email'] . ')'); ?>
+                                        </option>
+                                    <?php endforeach; ?>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="category_id" class="form-label">Investment Category</label>
+                                <select name="category_id" id="category_id" class="form-control" required>
+                                    <option value="">Select Category</option>
+                                    <?php foreach ($categories as $category): ?>
+                                        <option value="<?php echo $category['id']; ?>">
+                                            <?php echo htmlspecialchars($category['name']); ?>
                                         </option>
                                     <?php endforeach; ?>
                                 </select>
