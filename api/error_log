@@ -1,0 +1,32 @@
+[20-Sep-2025 00:02:01 Africa/Lagos] Maturity check completed: 0 investments matured, 0 errors
+[21-Sep-2025 11:00:53 UTC] Paystack Webhook: 
+[21-Sep-2025 11:00:53 UTC] Webhook signature mismatch - Expected: 949ef78e375aec92a8193822a8b35f93311f880251823fc22b14edf502c014cba9f0769bd47eb41d79d4b1d0ea976d98c25af046cfa5d67c22d3b0531c873bdf, Received: 
+[21-Sep-2025 11:00:53 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/api/webhook.php on line 33
+[21-Sep-2025 11:00:53 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/api/webhook.php on line 44
+[21-Sep-2025 11:00:53 UTC] Unhandled webhook event: 
+[21-Sep-2025 11:01:53 UTC] Paystack Webhook: 
+[21-Sep-2025 11:01:53 UTC] Webhook signature mismatch - Expected: 949ef78e375aec92a8193822a8b35f93311f880251823fc22b14edf502c014cba9f0769bd47eb41d79d4b1d0ea976d98c25af046cfa5d67c22d3b0531c873bdf, Received: 
+[21-Sep-2025 11:01:53 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/api/webhook.php on line 33
+[21-Sep-2025 11:01:53 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/api/webhook.php on line 44
+[21-Sep-2025 11:01:53 UTC] Unhandled webhook event: 
+[21-Sep-2025 11:01:58 UTC] Paystack Webhook: 
+[21-Sep-2025 11:01:58 UTC] Webhook signature mismatch - Expected: 949ef78e375aec92a8193822a8b35f93311f880251823fc22b14edf502c014cba9f0769bd47eb41d79d4b1d0ea976d98c25af046cfa5d67c22d3b0531c873bdf, Received: 
+[21-Sep-2025 11:01:58 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/api/webhook.php on line 33
+[21-Sep-2025 11:01:58 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/api/webhook.php on line 44
+[21-Sep-2025 11:01:58 UTC] Unhandled webhook event: 
+[21-Sep-2025 11:02:01 UTC] Paystack Webhook: 
+[21-Sep-2025 11:02:01 UTC] Webhook signature mismatch - Expected: 949ef78e375aec92a8193822a8b35f93311f880251823fc22b14edf502c014cba9f0769bd47eb41d79d4b1d0ea976d98c25af046cfa5d67c22d3b0531c873bdf, Received: 
+[21-Sep-2025 11:02:01 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/api/webhook.php on line 33
+[21-Sep-2025 11:02:01 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/api/webhook.php on line 44
+[21-Sep-2025 11:02:01 UTC] Unhandled webhook event: 
+[21-Sep-2025 11:02:14 UTC] Paystack Webhook: 
+[21-Sep-2025 11:02:14 UTC] Webhook signature mismatch - Expected: 949ef78e375aec92a8193822a8b35f93311f880251823fc22b14edf502c014cba9f0769bd47eb41d79d4b1d0ea976d98c25af046cfa5d67c22d3b0531c873bdf, Received: 
+[21-Sep-2025 11:02:14 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/api/webhook.php on line 33
+[21-Sep-2025 11:02:14 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/api/webhook.php on line 44
+[21-Sep-2025 11:02:14 UTC] Unhandled webhook event: 
+[21-Sep-2025 11:02:17 UTC] Paystack Webhook: 
+[21-Sep-2025 11:02:17 UTC] Webhook signature mismatch - Expected: 949ef78e375aec92a8193822a8b35f93311f880251823fc22b14edf502c014cba9f0769bd47eb41d79d4b1d0ea976d98c25af046cfa5d67c22d3b0531c873bdf, Received: 
+[21-Sep-2025 11:02:17 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/api/webhook.php on line 33
+[21-Sep-2025 11:02:17 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/api/webhook.php on line 44
+[21-Sep-2025 11:02:17 UTC] Unhandled webhook event: 
+[22-Sep-2025 00:02:01 Africa/Lagos] Maturity check completed: 0 investments matured, 0 errors

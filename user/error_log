@@ -1,0 +1,270 @@
+[19-Sep-2025 12:27:14 UTC] Registration error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'first_name' in 'INSERT INTO'
+[19-Sep-2025 12:27:25 UTC] Login error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'first_name' in 'SELECT'
+[19-Sep-2025 12:28:12 UTC] Login error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'first_name' in 'SELECT'
+[19-Sep-2025 12:32:02 UTC] Registration error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'first_name' in 'INSERT INTO'
+[19-Sep-2025 16:35:41 UTC] Investment data for user 1: {"category_id":3,"duration_id":15,"amount":50000,"category_name":"Transportation","duration_name":"60 Days","duration_days":"60","interest_rate":"11.00","tax_rate":"5.00"}
+[19-Sep-2025 16:35:51 UTC] Investment data for user 1: {"category_id":3,"duration_id":15,"amount":50000,"category_name":"Transportation","duration_name":"60 Days","duration_days":"60","interest_rate":"11.00","tax_rate":"5.00"}
+[19-Sep-2025 17:35:19 UTC] Investment data for user 2: {"category_id":1,"duration_id":3,"amount":100000,"category_name":"AquaVault Stock","duration_name":"60 Days","duration_days":"60","interest_rate":"12.00","tax_rate":"5.00"}
+[19-Sep-2025 17:35:40 UTC] Investment data for user 2: {"category_id":1,"duration_id":3,"amount":100000,"category_name":"AquaVault Stock","duration_name":"60 Days","duration_days":"60","interest_rate":"12.00","tax_rate":"5.00"}
+[19-Sep-2025 17:36:51 UTC] Investment data for user 2: {"category_id":1,"duration_id":1,"amount":170000,"category_name":"AquaVault Stock","duration_name":"7 Days","duration_days":"7","interest_rate":"8.00","tax_rate":"5.00"}
+[19-Sep-2025 17:36:54 UTC] Investment data for user 2: {"category_id":1,"duration_id":1,"amount":170000,"category_name":"AquaVault Stock","duration_name":"7 Days","duration_days":"7","interest_rate":"8.00","tax_rate":"5.00"}
+[19-Sep-2025 17:41:52 UTC] Investment data for user 2: {"category_id":1,"duration_id":4,"amount":700000,"category_name":"AquaVault Stock","duration_name":"90 Days","duration_days":"90","interest_rate":"15.00","tax_rate":"5.00"}
+[19-Sep-2025 17:42:03 UTC] Investment data for user 2: {"category_id":1,"duration_id":4,"amount":700000,"category_name":"AquaVault Stock","duration_name":"90 Days","duration_days":"90","interest_rate":"15.00","tax_rate":"5.00"}
+[19-Sep-2025 20:37:17 UTC] PHP Warning:  Undefined variable $investment in /home/jennifer/aqua/user/invest_amount.php on line 292
+[19-Sep-2025 20:37:17 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/user/invest_amount.php on line 292
+[19-Sep-2025 20:37:24 UTC] PHP Warning:  Undefined variable $investment in /home/jennifer/aqua/user/invest_amount.php on line 292
+[19-Sep-2025 20:37:24 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/user/invest_amount.php on line 292
+[19-Sep-2025 20:37:31 UTC] Investment data for user 2: {"category_id":2,"duration_id":9,"amount":25000,"category_name":"Agriculture","duration_name":"60 Days","duration_days":"60","interest_rate":"10.00","tax_rate":"5.00"}
+[19-Sep-2025 20:37:34 UTC] Investment data for user 2: {"category_id":2,"duration_id":9,"amount":25000,"category_name":"Agriculture","duration_name":"60 Days","duration_days":"60","interest_rate":"10.00","tax_rate":"5.00"}
+[19-Sep-2025 21:03:01 UTC] PHP Warning:  Undefined variable $investment in /home/jennifer/aqua/user/invest_amount.php on line 292
+[19-Sep-2025 21:03:01 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/user/invest_amount.php on line 292
+[19-Sep-2025 21:03:27 UTC] Investment data for user 2: {"category_id":2,"duration_id":11,"amount":25000,"category_name":"Agriculture","duration_name":"180 Days","duration_days":"180","interest_rate":"15.00","tax_rate":"5.00"}
+[19-Sep-2025 21:03:42 UTC] Investment data for user 2: {"category_id":2,"duration_id":11,"amount":25000,"category_name":"Agriculture","duration_name":"180 Days","duration_days":"180","interest_rate":"15.00","tax_rate":"5.00"}
+[19-Sep-2025 21:03:53 UTC] PHP Warning:  Undefined variable $investment in /home/jennifer/aqua/user/invest_amount.php on line 292
+[19-Sep-2025 21:03:53 UTC] PHP Warning:  Trying to access array offset on null in /home/jennifer/aqua/user/invest_amount.php on line 292
+[19-Sep-2025 21:14:34 UTC] Investment data for user 2: {"category_id":2,"duration_id":11,"amount":25000,"category_name":"Agriculture","duration_name":"180 Days","duration_days":"180","interest_rate":"15.00","tax_rate":"5.00"}
+[20-Sep-2025 02:48:03 UTC] Investment data for user 2: {"category_id":4,"duration_id":23,"amount":100000,"category_name":"Real Estate","duration_name":"180 Days","duration_days":"180","interest_rate":"14.00","tax_rate":"5.00"}
+[20-Sep-2025 02:48:31 UTC] Investment data for user 2: {"category_id":4,"duration_id":23,"amount":100000,"category_name":"Real Estate","duration_name":"180 Days","duration_days":"180","interest_rate":"14.00","tax_rate":"5.00"}
+[20-Sep-2025 08:09:29 UTC] Investment data for user 2: {"category_id":2,"duration_id":12,"amount":25000,"category_name":"Agriculture","duration_name":"365 Days","duration_days":"365","interest_rate":"18.00","tax_rate":"5.00"}
+[20-Sep-2025 08:09:38 UTC] Investment data for user 2: {"category_id":2,"duration_id":12,"amount":25000,"category_name":"Agriculture","duration_name":"365 Days","duration_days":"365","interest_rate":"18.00","tax_rate":"5.00"}
+[20-Sep-2025 08:11:41 UTC] Investment data for user 2: {"category_id":1,"duration_id":4,"amount":10000,"category_name":"AquaVault Stock","duration_name":"90 Days","duration_days":"90","interest_rate":"15.00","tax_rate":"5.00"}
+[20-Sep-2025 08:12:49 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[20-Sep-2025 08:12:49 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[20-Sep-2025 08:12:58 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[20-Sep-2025 08:13:47 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[20-Sep-2025 08:13:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist in /home/jennifer/aqua/user/bank_accounts.php:68
+Stack trace:
+#0 /home/jennifer/aqua/user/bank_accounts.php(68): PDO->prepare()
+#1 {main}
+  thrown in /home/jennifer/aqua/user/bank_accounts.php on line 68
+[20-Sep-2025 08:13:57 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[20-Sep-2025 08:14:53 UTC] Investment data for user 2: {"category_id":2,"duration_id":10,"amount":25000,"category_name":"Agriculture","duration_name":"90 Days","duration_days":"90","interest_rate":"12.00","tax_rate":"5.00"}
+[20-Sep-2025 08:14:57 UTC] Investment data for user 2: {"category_id":2,"duration_id":10,"amount":25000,"category_name":"Agriculture","duration_name":"90 Days","duration_days":"90","interest_rate":"12.00","tax_rate":"5.00"}
+[20-Sep-2025 08:45:52 UTC] Investment data for user 2: {"category_id":4,"duration_id":34,"amount":1000000,"category_name":"Real Estate","duration_name":"730 Days","duration_days":"730","interest_rate":"30.00","tax_rate":"5.00"}
+[20-Sep-2025 09:09:16 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[20-Sep-2025 09:09:50 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[20-Sep-2025 09:10:30 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[20-Sep-2025 09:10:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist in /home/jennifer/aqua/user/bank_accounts.php:73
+Stack trace:
+#0 /home/jennifer/aqua/user/bank_accounts.php(73): PDO->prepare()
+#1 {main}
+  thrown in /home/jennifer/aqua/user/bank_accounts.php on line 73
+[20-Sep-2025 09:11:32 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[20-Sep-2025 09:11:32 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[20-Sep-2025 09:18:42 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[20-Sep-2025 09:18:42 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[20-Sep-2025 09:18:49 UTC] Withdrawal requests fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[20-Sep-2025 09:21:00 UTC] Withdrawal requests fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[20-Sep-2025 10:22:56 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[20-Sep-2025 10:22:56 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[20-Sep-2025 10:23:44 UTC] Withdrawal requests fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[20-Sep-2025 10:23:48 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 09:39:11 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 09:39:59 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 09:39:59 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 09:46:12 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 09:46:12 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 09:46:20 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 09:46:20 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 09:46:27 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 09:46:27 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 09:51:35 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 09:51:35 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 09:57:02 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 09:57:02 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 09:57:09 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 09:57:09 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 09:57:12 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 09:57:12 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:00:36 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:00:36 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:02:22 UTC] Investment data for user 2: {"category_id":2,"duration_id":8,"amount":25000,"category_name":"Agriculture","duration_name":"30 Days","duration_days":"30","interest_rate":"8.00","tax_rate":"5.00"}
+[21-Sep-2025 10:03:00 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:03:00 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:03:13 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:03:13 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:03:15 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:03:15 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:03:16 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:03:16 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:03:17 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:03:17 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:03:18 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:03:18 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:03:18 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:03:18 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:06:15 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:06:15 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:06:17 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:06:17 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:06:18 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:06:18 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:06:19 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:06:19 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:06:20 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:06:20 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:06:21 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:06:21 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:06:29 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:06:45 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:06:45 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:06:51 UTC] Withdrawal requests fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:06:55 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:25:46 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:25:46 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:27:41 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:27:41 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:27:44 UTC] Withdrawal requests fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:28:01 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:28:01 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:28:06 UTC] Withdrawal requests fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:28:15 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:34:55 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:34:55 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:35:04 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:35:04 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:39:34 UTC] Investment data for user 2: {"category_id":1,"duration_id":6,"amount":10000,"category_name":"AquaVault Stock","duration_name":"365 Days","duration_days":"365","interest_rate":"22.00","tax_rate":"5.00"}
+[21-Sep-2025 10:40:29 UTC] Investment data for user 2: {"category_id":1,"duration_id":6,"amount":10000,"category_name":"AquaVault Stock","duration_name":"365 Days","duration_days":"365","interest_rate":"22.00","tax_rate":"5.00"}
+[21-Sep-2025 10:40:52 UTC] Withdrawal requests fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:41:05 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:41:05 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:41:09 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:41:09 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:41:13 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:41:13 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:41:16 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:41:33 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:41:36 UTC] Withdrawal requests fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:41:40 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:41:40 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:41:51 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:41:51 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:41:55 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:41:55 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:42:06 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 10:42:06 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:42:13 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:42:47 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:42:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist in /home/jennifer/aqua/user/bank_accounts.php:73
+Stack trace:
+#0 /home/jennifer/aqua/user/bank_accounts.php(73): PDO->prepare()
+#1 {main}
+  thrown in /home/jennifer/aqua/user/bank_accounts.php on line 73
+[21-Sep-2025 10:42:55 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:44:40 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:46:14 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:46:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist in /home/jennifer/aqua/user/bank_accounts.php:73
+Stack trace:
+#0 /home/jennifer/aqua/user/bank_accounts.php(73): PDO->prepare()
+#1 {main}
+  thrown in /home/jennifer/aqua/user/bank_accounts.php on line 73
+[21-Sep-2025 10:46:46 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 10:46:49 UTC] Bank accounts fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.user_bank_accounts' doesn't exist
+[21-Sep-2025 11:12:16 UTC] Paystack Resolve Response (HTTP 429): Array
+(
+    [status] => 
+    [message] => Test mode daily limit of 3 live bank resolves exceeded. Use test bank codes 001 or upgrade to live mode.
+    [meta] => Array
+        (
+            [nextStep] => Try again later
+        )
+
+    [type] => api_error
+    [code] => unknown
+)
+
+[21-Sep-2025 11:12:16 UTC] Paystack account resolve failed: Test mode daily limit of 3 live bank resolves exceeded. Use test bank codes 001 or upgrade to live mode.
+[21-Sep-2025 11:12:16 UTC] Paystack verify response: Array
+(
+    [status] => 
+    [message] => Test mode daily limit of 3 live bank resolves exceeded. Use test bank codes 001 or upgrade to live mode.
+)
+
+[21-Sep-2025 11:12:44 UTC] Paystack Resolve Response (HTTP 429): Array
+(
+    [status] => 
+    [message] => Test mode daily limit of 3 live bank resolves exceeded. Use test bank codes 001 or upgrade to live mode.
+    [meta] => Array
+        (
+            [nextStep] => Try again later
+        )
+
+    [type] => api_error
+    [code] => unknown
+)
+
+[21-Sep-2025 11:12:44 UTC] Paystack account resolve failed: Test mode daily limit of 3 live bank resolves exceeded. Use test bank codes 001 or upgrade to live mode.
+[21-Sep-2025 11:12:44 UTC] Paystack verify response: Array
+(
+    [status] => 
+    [message] => Test mode daily limit of 3 live bank resolves exceeded. Use test bank codes 001 or upgrade to live mode.
+)
+
+[21-Sep-2025 11:13:00 UTC] Paystack Resolve Response (HTTP 429): Array
+(
+    [status] => 
+    [message] => Test mode daily limit of 3 live bank resolves exceeded. Use test bank codes 001 or upgrade to live mode.
+    [meta] => Array
+        (
+            [nextStep] => Try again later
+        )
+
+    [type] => api_error
+    [code] => unknown
+)
+
+[21-Sep-2025 11:13:00 UTC] Paystack account resolve failed: Test mode daily limit of 3 live bank resolves exceeded. Use test bank codes 001 or upgrade to live mode.
+[21-Sep-2025 11:13:00 UTC] Paystack verify response: Array
+(
+    [status] => 
+    [message] => Test mode daily limit of 3 live bank resolves exceeded. Use test bank codes 001 or upgrade to live mode.
+)
+
+[21-Sep-2025 11:13:15 UTC] Paystack Resolve Response (HTTP 429): Array
+(
+    [status] => 
+    [message] => Test mode daily limit of 3 live bank resolves exceeded. Use test bank codes 001 or upgrade to live mode.
+    [meta] => Array
+        (
+            [nextStep] => Try again later
+        )
+
+    [type] => api_error
+    [code] => unknown
+)
+
+[21-Sep-2025 11:13:15 UTC] Paystack account resolve failed: Test mode daily limit of 3 live bank resolves exceeded. Use test bank codes 001 or upgrade to live mode.
+[21-Sep-2025 11:13:15 UTC] Paystack verify response: Array
+(
+    [status] => 
+    [message] => Test mode daily limit of 3 live bank resolves exceeded. Use test bank codes 001 or upgrade to live mode.
+)
+
+[21-Sep-2025 11:26:44 UTC] Paystack Resolve Response (HTTP 429): Array
+(
+    [status] => 
+    [message] => Test mode daily limit of 3 live bank resolves exceeded. Use test bank codes 001 or upgrade to live mode.
+    [meta] => Array
+        (
+            [nextStep] => Try again later
+        )
+
+    [type] => api_error
+    [code] => unknown
+)
+
+[21-Sep-2025 11:26:44 UTC] Paystack account resolve failed: Test mode daily limit of 3 live bank resolves exceeded. Use test bank codes 001 or upgrade to live mode.
+[21-Sep-2025 11:26:44 UTC] Paystack verify response: Array
+(
+    [status] => 
+    [message] => Test mode daily limit of 3 live bank resolves exceeded. Use test bank codes 001 or upgrade to live mode.
+)
+
+[21-Sep-2025 11:48:51 UTC] Test mode: Skipping Paystack verification for bank code 001
+[21-Sep-2025 11:50:05 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 11:50:22 UTC] Withdrawal requests fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 11:50:24 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 23:24:48 UTC] Withdrawal requests fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 23:24:55 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 23:25:07 UTC] Matured investments fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist
+[21-Sep-2025 23:25:11 UTC] Withdrawal requests fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_newaqua.withdrawal_requests' doesn't exist

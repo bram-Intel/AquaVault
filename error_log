@@ -1,0 +1,7 @@
+[19-Sep-2025 12:24:21 UTC] Database connection failed: SQLSTATE[28000] [1045] Access denied for user 'aquavault_user'@'localhost' (using password: YES)
+[19-Sep-2025 12:24:57 UTC] Stats fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_aqua.user_investments' doesn't exist
+[19-Sep-2025 12:24:57 UTC] Plans fetch error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'min_amount' in 'ORDER BY'
+[19-Sep-2025 12:25:02 UTC] Stats fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_aqua.user_investments' doesn't exist
+[19-Sep-2025 12:25:02 UTC] Plans fetch error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'min_amount' in 'ORDER BY'
+[19-Sep-2025 12:26:04 UTC] Stats fetch error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jennifer_aqua.user_investments' doesn't exist
+[19-Sep-2025 12:26:04 UTC] Plans fetch error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'min_amount' in 'ORDER BY'
